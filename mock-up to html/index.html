@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav-bar" role="navigation">
+        <div class="nav-image">
+            <img onclick="hideNav()"src="/images/boss.svg" alt="">
+        </div>
+         <div class="imgs">   
+            <img onclick="hideNav()" src="/images/icon.jpg" alt="">   
+        </div>
+        <ul class="liste">
+            <li class="liste-item"> <a onclick="hideNav()" href="#accueil">acceuil</a></li>
+            <li class="liste-item"><a onclick="hideNav()" href="#about-me">about me</a></li>
+            <li class="liste-item"><a onclick="hideNav()" href="#my-projects">my projects</a></li>
+            <li class="liste-item"><a onclick="hideNav()" href="#my-skills">my skills</a></li>
+            <li class="liste-item"><a onclick="hideNav()" href="#my-experiences">my experiences</a></li>
+            <li class="liste-item"><a onclick="hideNav()" href="#contact-me">contact me</a></li>
+        </ul>
+    </nav>
+    <main class="global">
+        <header class="header" id="accueil">
+            
+            <h1>Welcome to my space</h1>
+            <div class="medias">
+                <a href="https://github.com" target="blank">
+                    <div class="media media1">
+                        <img src="images/github.svg" alt="github icone" class="icone-medias">
+                    </div>
+                </a>
+                <a href="https://linkedin.com" target="blank">
+                    <div class="media media2">
+                        <img src="images/linkedin.svg" alt="linkedin icone" class="icone-medias">
+                    </div>
+                </a>
+                <a href="https://twitter.com" target="blank">
+                    <div class="media media3">
+                        <img src="images/twitter.svg" alt="twitter icone" class="icone-medias">
+                    </div>
+                </a>
+            </div>
+            <a href="#my-projects" class="btn-acc btn-acc1">My projects</a>
+            <a href="#my-experiences" class="btn-acc btn-acc2">Expériences</a>
+
+
+            </div>
+            </a>
+        </header>
+        <div class="fixed-header">
+            <div onclick="showNav()">
+                <!--btn responsive menu-->
+                <div class="btn-rond-menu">
+                    <!-- <div class="cont-line"> -->
+                        <div class="line-unique"></div>
+                        <div class="line-unique"></div>
+                        <div class="line-unique"></div>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div>
+                <span>MENU</span>
+            </div>
+    </div>
+        <section class="about-me" id="about-me">
+            <div class="triangle-top"></div>
+            <h1 class="section-title about-me-title">ABOUT ME</h1>
+            <div class="about-me-text">
+
+                <div class="about-me-left">
+                    <h2 class="about-me-left-title">sit amet consectetur adipisicing elit.</h2>
+                    <hr>
+                    <p class="about-me-left-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                        consequatur
+                        quaerat, voluptatem dolor
+                        impedit culpa unde facilis, dolorum eius minus laborum tenetur quibusdam eum eaque velit
+                        laboriosam.
+                    </p>
+                    <hr>
+                    <p class="about-me-left-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                        consequatur
+                        quaerat, voluptatem dolor
+                        impedit culpa unde facilis, dolorum eius minus laborum tenetur quibusdam eum eaque velit
+                        laboriosam.
+                    </p>
+                </div>
+                <div class="about-me-right">
+                    <ul class="about-me-list">
+                        <li>
+                            <div class="star">1</div> Lorem ipsum dolor.
+                        </li>
+                        <li>
+                            <div class="star">2</div> Lorem ipsum dolor.
+                        </li>
+                        <li>
+                            <div class="star">3</div> Lorem ipsum dolor.
+                        </li>
+                        <li>
+                            <div class="star">4</div> Lorem ipsum dolor.
+                        </li>
+                        <li>
+                            <div class="star">5</div> Lorem ipsum dolor.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="triangle-bottom"></div>
+        </section>
+        <section class="my-projects" id="my-projects">
+            <h1 class="section-title">MY PROJECTS</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img card-img1"></div>
+                    <h3 class="m-lr-2 card-title">Project Name</h3>
+                    <h6 class="m-lr-2 p-2 card-date">27 february</h6>
+                    <p class="m-lr-2 p-2 card-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                        voluptas
+                        repellat odit
+                        accusantium velit maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, illo.
+                    </p>
+                    <div class="form-item mt-2 ml-2">
+                        <button>Go To Project</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img card-img2"></div>
+                    <h3 class="m-lr-2 card-title">Project Name</h3>
+                    <h6 class="m-lr-2 p-2 card-date">27 february</h6>
+                    <p class="m-lr-2 p-2 card-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                        voluptas
+                        repellat odit
+                        accusantium velit maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, illo.
+                    </p>
+                    <div class="form-item mt-2 ml-2">
+                        <button>Go To Project</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img card-img3"></div>
+                    <h3 class="m-lr-2 card-title">Project Name</h3>
+                    <h6 class="m-lr-2 p-2 card-date">27 february</h6>
+                    <p class="m-lr-2 p-2 card-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                        voluptas
+                        repellat odit
+                        accusantium velit maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, illo.
+                    </p>
+                    <div class="form-item mt-2 ml-2">
+                        <button>Go To Project</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img card-img4"></div>
+                    <h3 class="m-lr-2 card-title">Project Name</h3>
+                    <h6 class="m-lr-2 p-2 card-date">27 february</h6>
+                    <p class="m-lr-2 p-2 card-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                        voluptas
+                        repellat odit
+                        accusantium velit maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, illo.
+                    </p>
+                    <div class="form-item mt-2 ml-2">
+                        <button>Go To Project</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-skills" id="my-skills">
+            <h1 class="section-title">MY SKILLS</h1>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span class="skill-name">SKILL 1</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-fill progress1">
+                            <span>
+                                80%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span class="skill-name">SKILL 2</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-fill progress2">
+                            <span>
+                                60%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span class="skill-name">SKILL 3</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-fill progress3">
+                            <span>
+                                75%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span class="skill-name">SKILL 4</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-fill progress4">
+                            <span>
+                                85%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span class="skill-name">SKILL 5</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-fill progress5">
+                            <span>
+                                45%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span class="skill-name">SKILL 6</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-fill progress6">
+                            <span>
+                                95%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="my-experience"> -->
+        <section class="my-experience travail-exp" id="my-experiences">
+
+            <h2 class="section-title">My EXPERIENCES</h2>
+
+            <div class="cont-exp-travail">
+
+                <div class="barre-verticale">
+                    <div class="exp-card">
+                        <img class="boule-ico" src="images/google.png" alt="icone gauche">
+                        <div class="contenu-bloc">
+                            <p class="exp-section-title">Google</p>
+                            <p class="titre-section-bloc1">2019</p>
+                            <p class="txt-section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                                perferendis dignissimos doloribus quaerat corrupti facere ratione modi vel.
+                                Voluptatem minima facilis eaque eum quia voluptatibus dolorem minus incidunt
+                                repellendus culpa?</p>
+                        </div>
+                    </div>
+                    <div class="exp-card">
+                        <img class="boule-ico" src="images/instagram.png" alt="icone gauche">
+                        <div class="contenu-bloc">
+                            <p class="exp-section-title">instagram</p>
+                            <p class="titre-section-bloc2"> 2017-2018</p>
+                            <p class="txt-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                vel ipsam nulla aliquid quae beatae ut et cum libero molestiae?</p>
+                        </div>
+                    </div>
+                    <div class="exp-card">
+                        <img class="boule-ico" src="images/amazon.png" alt="icone gauche">
+                        <div class="contenu-bloc">
+                            <p class="exp-section-title">Amazon</p>
+                            <p class="titre-section-bloc3">2015-2016</p>
+                            <p class="txt-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                vel ipsam nulla aliquid quae beatae ut et cum libero molestiae?</p>
+                        </div>
+                    </div>
+                    <div class="exp-card">
+                        <img class="boule-ico" src="images/apple.svg" alt="icone gauche">
+                        <div class="contenu-bloc">
+                            <p class="exp-section-title">Apple</p>
+                            <p class="titre-section-bloc4"> 2012-2014</p>
+                            <p class="txt-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                                vel ipsam nulla aliquid quae beatae ut et cum libero molestiae?</p>
+                        </div>
+                    </div>
+        </section>
+        <section class="my-contact" id="contact-me">
+            <h1 class="section-title"> MY CONTACT</h1>
+            <form>
+                <div class="form-item">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name">
+                </div>
+                <div class="form-item">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" rows="8"></textarea>
+                </div>
+                <div class="form-item">
+                    <button>Send</button>
+                </div>
+                <div class="form-item"></div>
+            </form>
+        </section>
+    </main>
+    <script>
+        function showNav(){
+            var element = document.querySelector('.nav-bar');
+            element.classList.toggle('show-nav');
+        }
+        function hideNav(){
+            var element = document.querySelector('.nav-bar');
+            element.classList.toggle('show-nav');
+        }
+    </script>
+</body>
+
+</html>
