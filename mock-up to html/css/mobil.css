@@ -143,7 +143,7 @@ a.btn-acc {
         justify-content: space-between;
         background:linear-gradient(#D660A9,#9C4CB9);
         padding: 10px 0px;
-        position: sticky;
+        position: fixed;
         top: 0;
         z-index: 110;
     }
